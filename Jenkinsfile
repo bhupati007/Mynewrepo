@@ -29,10 +29,6 @@ pipeline {
             }
         }
 
-        stage('Test environment') {
-            steps {
-                sh 'echo "test...."'
-            }
         }
     }
 }
